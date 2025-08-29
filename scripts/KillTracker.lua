@@ -1,9 +1,10 @@
 --KillTracker
+--version:                          1.0
 --requires codebases:               tableIO and ChaosTools for logging/saving data
 --requires config file containing:  MissionName, FilePath
 
 
-local saveDataSubfolder = 'saves/'
+local saveDataSubfolder = [[saves\]]
 local saveNamePrefix = MissionName .. '_'
 
 
